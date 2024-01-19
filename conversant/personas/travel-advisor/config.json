@@ -4,7 +4,7 @@
         "avatar": ":palm_tree:"
     },
     "client_config": {
-        "model": "xlarge",
+        "model": "command",
         "max_tokens": 100,
         "temperature": 0.75,
         "stop_sequences": ["\n"]
