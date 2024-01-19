@@ -121,7 +121,7 @@ def draw_client_config_form() -> None:
         "https://docs.cohere.ai/generate-reference"
     )
     config = st.session_state.snapshot_client_config
-    model_options = ["", "command-light", "command"]
+    model_options = ["", "small", "medium", "large", "xlarge"]
     model = st.selectbox(
         label="model",
         options=model_options,
