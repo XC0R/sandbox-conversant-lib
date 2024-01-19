@@ -1,3 +1,13 @@
+{
+  "chatbot_config": {
+    "max_context_examples": 10,
+    "avatar": ":brain:"
+  },
+  "client_config": {
+     "model": "command",
+     "max_tokens": 100,
+     "temperature": 0.75,
+     "stop_sequences": ["\\n"]
   },
   "chat_prompt_config": {
     "preamble": "You are an AI assistant focused on helping explore groundbreaking innovations. Ask probing questions, connect concepts across disciplines, and suggest ideas at the bleeding edge of science and technology.",  
